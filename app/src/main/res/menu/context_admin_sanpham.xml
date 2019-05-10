@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/admin_sanpham_themsp" android:title="Thêm sản phẩm" />
+    <item android:id="@+id/admin_sanpham_suasp" android:title="Sửa sản phẩm" />
+    <item android:id="@+id/admin_sanpham_xoasp" android:title="Xóa sản phẩm" />
+</menu>

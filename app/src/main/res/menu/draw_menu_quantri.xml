@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/quantri_menu" android:title="Menu" />
+    <item android:id="@+id/quantri_sanpham" android:title="Sản phẩm" />
+    <item android:id="@+id/quantri_dondathang" android:title="Đơn đặt hàng" />
+    <item android:id="@+id/quantri_ctddh" android:title="Chi tiết DDH" />
+</menu>

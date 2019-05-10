@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin.AdminMainActivity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayoutQuanTri"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF249B0F"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbarMainQuanTri"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_weight="1"
+                    android:background="#FF249B0F"
+                    app:title="QUẢN TRỊ"
+                    app:titleTextColor="@android:color/background_light">
+
+                </android.support.v7.widget.Toolbar>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imgbuttonAdminMenu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/img_menu" />
+
+            <ImageButton
+                android:id="@+id/imgbuttonAdminSanPham"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/img_product" />
+
+        </LinearLayout>
+        <android.support.design.widget.NavigationView
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/draw_menu_quantri"
+            android:id="@+id/navigationViewQuanTri"
+            android:layout_gravity = "start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.design.widget.NavigationView>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>
